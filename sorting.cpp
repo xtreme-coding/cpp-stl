@@ -33,5 +33,12 @@ int main(){
 	}
 	cout << endl;
 
+	//print a vector with values modified 2nd method
+	for (int &x: A){
+		x++; //for eg.
+		cout << x << " ";
+	}
+	cout << endl;
+
 	return 0;
 }
