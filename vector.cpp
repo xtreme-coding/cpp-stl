@@ -19,6 +19,7 @@ int main(){
 	A.push_back(100);
 
 	//return iterator pointing to 1st occurence of value
+	//vector<int>::iterator can be replaced with auto
 	vector<int>::iterator it = lower_bound(A.begin(), A.end(), 100)
 
 	//return iterator pointing just more than value
